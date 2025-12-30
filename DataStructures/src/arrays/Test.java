@@ -31,5 +31,6 @@ public class Test {
 		for(int i: a) {
 			System.out.println(i);
 		}
+		input.close();
 	}
 }
