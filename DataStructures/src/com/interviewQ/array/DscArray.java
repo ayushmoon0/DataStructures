@@ -1,4 +1,4 @@
-package arraySort.day4;
+package com.interviewQ.array;
 
 import java.util.Scanner;
 

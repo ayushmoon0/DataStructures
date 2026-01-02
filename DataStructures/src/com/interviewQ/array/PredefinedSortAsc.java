@@ -1,9 +1,9 @@
-package arraySort.day4;
+package com.interviewQ.array;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class PredefinedSortDsc {
+public class PredefinedSortAsc {
 	public static void main(String[] args) {
 		Scanner input=new Scanner(System.in);
 		System.out.println("Enter size of array: ");
@@ -24,11 +24,9 @@ public class PredefinedSortDsc {
 		
 		//After sorting
 		System.out.print("\nAfter sorting: ");
-		for(int i=n-1; i>=0; i--) {
+		for(int i=0; i<n; i++) {
 			System.out.print(a[i]+" ");
 		}
-		
-		//We don't have predefined method to sort array in asc that's why print in dsc order...
 		input.close();
 	}
 }
