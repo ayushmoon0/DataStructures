@@ -1,9 +1,13 @@
-package com.array6;
+package com.array6.BinarySearch;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-// Binary search using recursion..
+/*
+ * 			Version-2
+ * ::--// Binary search using recursion..--::
+ * 
+ * */
 
 
 public class RBinarySearch {
@@ -26,7 +30,7 @@ public class RBinarySearch {
 		int h=a.length-1;
 		int l=0;
 		System.out.println("Element Present at Index: "+BinarySearch2(a,l,h,key));
-		
+		input.close();
 		
 	}
 	

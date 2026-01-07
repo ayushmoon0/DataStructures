@@ -1,5 +1,11 @@
-package com.array6;
+package com.array6.BinarySearch;
 
+
+/*
+ * 			Version-1
+ * ::--Binary Search to search element in array--::
+ * 
+ * */
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -20,12 +26,12 @@ public class BinarySearch {
 		System.out.print("Enter key to search: ");
 		int key=input.nextInt();
 		
-		System.out.println("Element found at index: "+BinarySearch1(a, key));
-		
+		System.out.println("Element found at index: "+BinarySearch1(a,0,a.length-1, key));
+		input.close();
 	}
 
-	static int BinarySearch1(int a[], int key) {
-		int l=0, h=a.length-1, mid;
+	static int BinarySearch1(int a[],int l, int h, int key) {
+		int mid;
 		
 		while(l<=h) {
 			mid=(l+h)/2;
