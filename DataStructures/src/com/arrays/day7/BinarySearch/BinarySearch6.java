@@ -28,6 +28,5 @@ public class BinarySearch6 {
 		int key=input.nextInt();
 		
 		System.out.println(Arrays.binarySearch(a, 0, n, key));
-		
 	}
 }
