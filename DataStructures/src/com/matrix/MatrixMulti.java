@@ -63,5 +63,6 @@ public class MatrixMulti {
 			}
 			System.out.println();
 		}
+		input.close();
 	}
 }
