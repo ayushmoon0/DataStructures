@@ -1,11 +1,11 @@
-package com.arrayRotations;
+package com.arrays.rotation.bruteForce;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class LeftRotation {
+public class LeftRotate {
 	static int[] leftRotate(int[] a, int r) {
-		r=r%a.length-1;
+		r=r%a.length;
 		int prev, temp;
 		for (int i = 0; i < r; i++) {
 			prev=a[0];

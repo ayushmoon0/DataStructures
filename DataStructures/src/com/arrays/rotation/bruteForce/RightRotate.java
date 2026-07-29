@@ -1,4 +1,4 @@
-package com.arrayRotations;
+package com.arrays.rotation.bruteForce;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -26,6 +26,7 @@ public class RightRotate {
 		int r = sc.nextInt();
 		System.out.println("Before Rotation==>"+Arrays.toString(a));
 		System.out.println("After Rotation==>"+Arrays.toString(rightRotate(a, r)));
+		sc.close();
 		}
 	}
 }
